@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <script src="" defer></script>
-    <title>Shrimps market - Procedimento</title>
+    <script src="./js/index.js" defer></script>
+    <title>Shrimps market - Forma de pagamento</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,23 +23,13 @@
             <div class="processo">
 
                 <ul>
-                    <div class="pedido">
-                        <li>Processo de registro das contas</li>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
-                        <p class="din">R$ 25,00</p>
-                    </div>
-                    <div class="choicebtn">
-                        <input type="button" value="✓" class="markbtn">
-                        <input type="button" value="✗" class="xbtn">
-                    </div>
-                    <div class="pedido">
-                        <li>Conta 2</li>
-                        <p>Maxime mollitia, molestiae quas vel sint commodi</p>
-                        <p class="din">R$ 50,00</p>
-                    </div>
-                    <div class="choicebtn">
-                        <input type="button" value="✓" class="markbtn">
-                        <input type="button" value="✗" class="xbtn">
+                    <div class="form" id="form">
+                        <h1 id="titulo">Escolha a forma de pagamento:</h1>
+                        <div class="btnform" id="form">
+                            <input type="button" value="💵 - Dinheiro" class="btnDin" id="btDin">
+                            <input type="button" value="💰 - Crédito" class="btnCred" id="btCred">
+                            <input type="button" value="💳 - Débito" class="btnDeb" id="btDeb">
+                        </div>
                     </div>
                 </ul>
 
@@ -47,8 +37,8 @@
                     <input type="image" src="../../home/assets/Hugo_05.webp" class="bonecAjuda" alt="bonecoAjuda" />
                     <p>Precisa de ajuda? Clique no botão a seguir:</p>
                     <input type="button" class="btHelp" value="Help" />
-                    <p>Prosseguir com a compra:</p>
-                    <input type="button" class="btProc" value="&#10140" />
+                    <p>Cancelar pedido? :</p>
+                    <input type="button" class="btProc" value="✖" />
                 </div>
             </div>
         </div>
